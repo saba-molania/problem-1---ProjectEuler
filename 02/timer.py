@@ -7,7 +7,6 @@ def clear():
         system("cls")
     else:
         system("clear")
-        return name
     
 
 def total(hour,minutes,seconds):
@@ -29,7 +28,7 @@ def output(t):
         t -= 1
         time.sleep(1)
         clear()
-    return t
+        
 
 def main():
     while True :
